@@ -1,17 +1,17 @@
-import Layout from './components/pages/Layout';
+import Layout from './pages/Layout';
 import { BrowserRouter, NavLink, Route, Routes } from "react-router-dom"
-import Home from './components/pages/Home';
-import Contact from './components/pages/Contact';
-import LoginReg from './components/pages/auth/LoginReg';
-import SendPasswordResetEmail from './components/pages/auth/SendPasswordResetEmail';
+import Home from './pages/Home.js';
+import Contact from './pages/Contact';
+import LoginReg from './pages/auth/LoginReg';
+import SendPasswordResetEmail from './pages/auth/SendPasswordResetEmail';
 import Navbar from './components/Navbar';
-import ResetPassword from './components/pages/auth/ResetPassword';
-import Dashboard from './components/pages/Dashboard';
+import ResetPassword from './pages/auth/ResetPassword';
+import Dashboard from './pages/Dashboard';
 
 function PageNotFound() {
     return (
         <div> 
-            <Navbar ></Navbar>
+            <Navbar></Navbar>
             <h1 className='text text-center'>Nothing On this Page</h1>
             <NavLink to="/" className="btn btn-success ">Back TO Home</NavLink>
         </div>

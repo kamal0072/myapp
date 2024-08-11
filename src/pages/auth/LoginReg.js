@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import shop1 from '../../../images/shop1.png'
+import shop1 from '../../images/shop1.png'
 import { Box, Card, Grid, Tabs, Tab } from '@mui/material'
 import UserLogin from './UserLogin';
 import UserRegistration from './UserRegistration';
